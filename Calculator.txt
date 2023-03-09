@@ -1,0 +1,28 @@
+a = input("Enter your operations: ")
+
+if(a == str("+")):
+    value1 = int(input("Enter your firt value: "))
+    value2 = int(input("Enter your second value: "))
+    b = value1 + value2
+    print(b)
+
+elif(a == str("-")):
+    value1 = int(input("Enter your firt value: "))
+    value2 = int(input("Enter your second value: "))
+    b = value1 - value2
+    print(b)
+    
+elif(a == str("*")):
+    value1 = int(input("Enter your firt value: "))
+    value2 = int(input("Enter your second value: "))
+    b = value1 * value2
+    print(b)
+    
+elif(a == str("/")):
+    value1 = int(input("Enter your firt value: "))
+    value2 = int(input("Enter your second value: "))
+    b = value1 / value2
+    print(b)
+    
+else:
+    print("Invalid Function")
